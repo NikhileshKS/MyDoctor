@@ -1,16 +1,12 @@
-<svg width="320" height="75" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="315" height="100" fill="white" />
-
-  <!-- Stethoscope Icon -->
-  <circle cx="50" cy="50" r="20" fill="#6EC1E4" />
-  <path d="M 40 50 q 10 20 20 0" stroke="white" stroke-width="2" fill="none" />
-  <circle cx="50" cy="50" r="3" fill="white" />
-
-  <!-- Text "MYDOCTOR" -->
-  <text x="80" y="60" font-family="Arial" font-size="30" fill="#4CAF50" font-weight="bold">My</text>
-  <text x="122" y="60" font-family="Arial" font-size="30" fill="#7e0000" font-weight="bold">_</text>
-
-  <text x="140" y="60" font-family="Arial" font-size="30" fill="#4CAF50" font-weight="bold">DOCTOR</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="217" height="46" viewBox="0 0 217 46" fill="none">
+  <!-- Logo elements -->
+  <circle cx="23" cy="23" r="21" stroke="blue" stroke-width="2" fill="none"/>
+  <path d="M23 11 V35 M11 23 H35" stroke="RED" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Double-struck text effect with red interior -->
+  <g font-family="Times, serif" font-size="28">
+    
+    <!-- Overlay for double-struck effect -->
+    <text x="53" y="30" fill="none" stroke="blue" stroke-width="1">MYDOCTOR</text>
+  </g>
 </svg>
-
