@@ -88,7 +88,7 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Chirag Deshpande',
         image: doc1,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -102,7 +102,7 @@ export const doctors = [
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Dr. Natasha Larson',
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -116,7 +116,7 @@ export const doctors = [
     },
     {
         _id: 'doc3',
-        name: 'Dr. Sarah Patel',
+        name: 'Dr. Siddharth Patel',
         image: doc3,
         speciality: 'Dermatologist',
         degree: 'MBBS',
@@ -130,7 +130,7 @@ export const doctors = [
     },
     {
         _id: 'doc4',
-        name: 'Dr. Christopher Lee',
+        name: 'Dr. Jameson',
         image: doc4,
         speciality: 'Pediatricians',
         degree: 'MBBS',
@@ -186,7 +186,7 @@ export const doctors = [
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Dr. Sharan',
         image: doc8,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -200,7 +200,7 @@ export const doctors = [
     },
     {
         _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
+        name: 'Dr. Aira sharma',
         image: doc9,
         speciality: 'Dermatologist',
         degree: 'MBBS',
