@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -10,7 +11,7 @@ const Footer = () => {
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-10 text-sm'>
         {/* .......Left Side......... */}
         <div className='mb-5 w-45'>
-          <img src={assets.logo} alt="Logo" />
+          <img onClick={()=>navigate('/')} src={assets.logo} alt="Logo" />
           <p className='w-full md:w-2/3 mt-2 text-gray-600 leading-6'>
             Disclaimer:<br />
             The content on this website is for informational purposes only and does not substitute professional medical advice,
